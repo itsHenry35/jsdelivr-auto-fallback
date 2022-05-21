@@ -1,6 +1,6 @@
 (function (document) {
   const SOURCE = 'https://cdn.jsdelivr.net';
-  const DEST = 'https://gcore.jsdelivr.net';
+  const DEST = 'https://fastly.jsdelivr.net';
   const replace = (text) => text.replace(SOURCE, DEST);
   const shouldReplace = (text) => text && text.includes(SOURCE);
   const $ = document.querySelectorAll.bind(document);
